@@ -1,1 +1,195 @@
-ffgg
+.header{
+/background-color: blue;  
+   display: flex;
+   width: 100%;
+   justify-content: space-around;
+  align-items: center;
+}
+.black{
+    color: black;
+   / background-color: green; 
+    
+}
+.red{
+    color: red;
+   / background-color: rgb(29, 147, 168);
+}
+
+.header ul{
+    display: flex;
+    list-style: none;
+}
+.header ul li{
+    padding: 16px;
+    
+}
+.header ul li:hover{
+    color: aqua; 
+}
+.login{
+    background-color: red;
+    color: white;
+    list-style: none;
+    margin-left: 400px;
+    margin-right: 20px;
+    width: 7%;
+    
+  
+}
+
+.active{
+    color: aqua;
+}
+.drop{
+    position: relative;
+}
+.drop-menu-v{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  padding:0px 0px;
+  width: 130px;
+}
+.drop-menu-v li{
+    display: none;
+}
+.drop:hover>.drop-menu-v li{
+    display: flex;
+}
+.drop2{
+    position: relative;
+}
+.drop2-menu-s{
+    display: flex;
+   flex-direction: column;
+   position: absolute;
+}
+.drop2 .drop2-menu-s li{
+    display: none;
+}
+.drop2:hover>.drop2-menu-s li{
+    display: flex;
+    
+}
+.title3-4-imgv1{
+    align-items: center;
+}
+.title3-4 h1{
+    
+    width: 54%;
+    
+}
+.title3-4{
+    margin-left: 70px;  
+}
+.title3 span{
+    color: red;
+}
+.title4{
+    
+    width: 60%;
+}
+
+.buy-now {
+    list-style: none;
+    background-color: brown;
+    color: blanchedalmond;
+    width: 15%;
+    height: 25px;
+    align-items: center;
+    
+   
+
+    
+}
+
+.title3-4-imgv1{
+    display: flex;
+}
+.lamb{
+  display: flex;  
+  margin-right: 95PX;
+  
+}
+.imgv1{
+    
+  width: 38%; 
+  margin-right: 130px;  
+}
+
+.cont1{
+   
+    width: 16%;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+.lamb1{
+    margin-left: 5%;
+    width: 100%;
+}
+.lamb1 img{
+    width: 100%;
+    height: 60%;
+}
+.lamb1 li{
+list-style: none;
+display: flex;
+justify-content: center;
+}
+.montant {
+    color: red;
+    font-weight: bolder;
+}
+.container2{
+    
+    
+}
+.cont2{
+    
+    margin-left: 40%;
+}
+.DEP{
+    
+    width: 100%;
+    height: 100%;
+    margin-left: 50PX;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.DEP1{
+ border-width: 1PX; 
+ border-style: solid; 
+ border-color: grey;
+    width: 30%;
+    justify-content: space-around;
+}
+.DEP1 img{
+    width: 20%;
+   
+    margin-left: 45%;
+    
+}
+.DEP1 li{
+    list-style: none;
+    
+}
+.DEP1 UL{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lire{
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    width: 30%;
+    border: #5px;
+    
+    
+}
+
+
+    
